@@ -9,6 +9,6 @@ n = int(input("Enter the size of array:"))
 arr = [0] * n
 
 for i in range(n):
-    arr[0] = int(input(f"Enter the elements{i}:"))
+    arr[i] = int(input(f"Enter the elements{i}:"))
     
 traverse(arr,0)
