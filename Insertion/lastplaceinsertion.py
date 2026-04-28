@@ -1,6 +1,4 @@
 def first_index_insertion(arr, n, val):
-        
-    #insert new value at first position
     arr[n] = val
     n += 1
     
