@@ -1,4 +1,4 @@
-def first_index_insertion(arr, n, val):
+def last_index_insertion(arr, n, val):
     arr[n] = val
     n += 1
     
@@ -13,4 +13,4 @@ for i in range(n):
 
 val = int(input("Enter value to insert at last position: "))
 
-first_index_insertion(arr, n, val)
+last_index_insertion(arr, n, val)
