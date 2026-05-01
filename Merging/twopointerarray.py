@@ -25,4 +25,4 @@ while j < n2:
     merged.append(arr2[j])
     j += 1
 
-print("Merged sorted array:", merged)
+print("Merged sorted array:", merged) 

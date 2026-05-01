@@ -1,6 +1,6 @@
 def mergearrays(arr1, arr2):
-    n = len(arr1)
-    m = len(arr2)
+    n = int(input("enter the size of array:"))
+    m = int(input("Enter the size of array;"))
     
     
     merged = [0] * (n + m)
@@ -23,8 +23,8 @@ def mergearrays(arr1, arr2):
         arr2[j] = merged[n + j]
         
 if __name__ == "__main__":
-    arr1 = [1,3,5,7]
-    arr2 = [2,4,6,8]
+    arr1 = int(input("Enter the elements:"))
+    arr2 = int(input("Enter the elements:"))
     
     mergearrays(arr1, arr2)
     
